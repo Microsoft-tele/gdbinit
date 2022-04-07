@@ -22,7 +22,6 @@ git clone https://gitee.com/liweijun0302/gdbinit.git
 ```sh
 [root]$ gdbinit.sh
 ```
-3. 如果
 
 ## 参与贡献
 
