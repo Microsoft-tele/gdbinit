@@ -7,14 +7,22 @@
 
 git clone https://gitee.com/liweijun0302/gdbinit.git
 
-## 使用说明
-
-1. 克隆之后将gdbinit.sh拖到自己喜欢的位置
-2. ./gdbinit 即可自动修改 home 目录下的 ~/.gdbinit 配置文件
-3. 建议搭配自动配置pwntools脚本 
+1. 克隆
+2. 执行 ./setup.sh 
+3. ./gdbinit 即可自动修改 home 目录下的 ~/.gdbinit 配置文件
+4. 建议搭配自动配置pwntools脚本 
 
 - git clone https://gitee.com/liweijun0302/pwntools_env.git
 - pwntools_env 使用说明在README.md
+
+## 使用说明
+
+1. gdbinit.sh文件已经被添加到 ～/.bashrc 中
+2. 在终端中直接输入 gdbinit 即可使用
+```sh
+[root]$ gdbinit.sh
+```
+3. 如果
 
 ## 参与贡献
 
